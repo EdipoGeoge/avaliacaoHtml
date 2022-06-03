@@ -13,7 +13,7 @@ box-sizing: border-box;
 
 .section{
     width: 20%;
-    background-color: black;
+    background-color: gray;
   
 }
 
@@ -25,18 +25,72 @@ box-sizing: border-box;
 .main .header{
     background-color: blueviolet;
     height: 200px;
+    bottom: 0;
+    display: block;
+    
+
 
 }
+
+.main .header nav ul {
+    display: flex;    
+    gap: 8px;
+    justify-content: center;
+    padding-top: 160px;  
+
+}
+.main .header nav ul li{
+    list-style: none;
+}
+
+.main .header nav ul li a{
+    display: flex;
+    background-color:  white;
+    padding: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: blue
+
+}
+.main .header nav a:hover{
+    background-color: aqua;
+    color: white;
+
+
+}
+
 .main .content{
     height: 600px;
     background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+
+
+
+}
+.main .content p{
+    text-align: justify;
+    padding-bottom: 40px; 
+
+
+
 
 }
 .main footer{
-    height: 200px;
-    background-color: red;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex; 
+    align-items: center;   
+    justify-content: center;
+    
+
 }
 .aside{
     width: 20%;
-    background-color: blue;
+    background-color: gray;
 }
